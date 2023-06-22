@@ -2,7 +2,7 @@ use std::env;
 use std::error::Error;
 use std::sync::Arc;
 
-use reqwest::{Client, ClientBuilder};
+use reqwest::{ClientBuilder};
 use scraper::{Html, Selector};
 use tokio::sync::{Mutex, MutexGuard};
 use tokio::time::{Duration};
